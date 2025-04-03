@@ -1,0 +1,46 @@
+@font-face{
+    font-family: myFont;
+    src:url(../fonts/DS-DIGI.TTF) ;
+}
+
+body{
+    background: linear-gradient(45deg, #8A2BE2, #FFFFFF);
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.central{
+    width: 450px;
+    height: 200px;
+    border: 1px solid rgba(255, 255, 255, 0.473);
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.438);
+    color: white;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    padding: 20px;
+    font-family: myFont;
+    background: black;
+}
+
+
+.central div{
+    background: black;
+    font-size: 105px;
+    height: 140px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.central span{
+    padding: 5px;
+    font-size: 40px;
+}
