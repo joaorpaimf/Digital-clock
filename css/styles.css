@@ -10,6 +10,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column-reverse;
     
 }
 
@@ -43,4 +44,17 @@ body{
 .central span{
     padding: 5px;
     font-size: 40px;
+}
+
+
+.greeting{
+    width: 450px;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    padding: 20px;
+    font-family: myFont;
+    flex-direction: column;
 }
